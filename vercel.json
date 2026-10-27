@@ -1,0 +1,13 @@
+{
+  "framework": "nextjs",
+  "functions": {
+    "pages/api/search.js": { "maxDuration": 60 },
+    "pages/api/afk-search.js": { "maxDuration": 60 },
+    "pages/api/send.js": { "maxDuration": 60 },
+    "pages/api/inbox.js": { "maxDuration": 60 },
+    "pages/api/warmup.js": { "maxDuration": 60 },
+    "pages/api/scrape.js": { "maxDuration": 30 },
+    "pages/api/accounts.js": { "maxDuration": 30 },
+    "pages/api/test-keys.js": { "maxDuration": 30 }
+  }
+}

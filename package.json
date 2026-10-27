@@ -1,0 +1,28 @@
+{
+  "name": "robertson-marketing-crm-v210",
+  "version": "2.0.5",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --no-warnings --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "imapflow": "2.3.0",
+    "mailparser": "3.9.37",
+    "next": "14.2.35",
+    "nodemailer": "^10.0.9",
+    "react": "18.3.0",
+    "react-dom": "18.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "smtp-server": "^3.19.13",
+    "tailwindcss": "^3.4.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
